@@ -1,7 +1,20 @@
 # Timer
-timer class in lua
+Timer class in lua(u) by ShaggGB/Shaggward/androooo06
 
-API:
+### Basic Features
+* Ability to count in either direction (and switch directions at any time)
+* Custom output-value formatting (appropriately using "%.Xf")
+* Custom increment-value (along with start and end values)
+* Multiple status events
+* Multiple method aliases
+
+### Basic use cases:
+* countdown gameclocks
+* regeneration / ability-duration timer
+* timeout clock
+* any other reason to use a clock
+
+# API:
 
 ## Constructor
 
