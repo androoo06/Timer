@@ -65,16 +65,19 @@ Timer.Changed
 * params = {[Number] CurrentValue, [TimerState] State}
 
   ex:
+  	```lua
 	myTimer.Changed:Connect(function(val,state)
 		print("clock has a current value of",val,"and its running state is",(state==Timer.States.ON))
 	end)
-
+	```
 Timer.Ended
 * fires when Timer:End() or Timer:Destroy() are used, or when the timer's value reaches
   or exceeds a bound (whether it be upper or lower bound)
 * params = {}  
 
   ex:
+  	```lua
 	myTimer.Ended:Connect(function()
 		print("my timer ended!")
 	end)
+	```
