@@ -41,6 +41,7 @@ Timer:SetFormat(value)
 ## Getters
 
 Timer:GetValue() -> returns the current value
+
 Timer:GetState() -> returns the state of the timer
 
 ## Methods
